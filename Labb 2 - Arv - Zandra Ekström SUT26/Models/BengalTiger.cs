@@ -6,17 +6,17 @@ namespace Labb_2___Arv___Zandra_Ekström_SUT26.Models
 {
     public class BengalTiger : Tiger
     {
-        // Unik egenskap
+        // unique property for the Bengal tiger
         public string Habitat { get; set; }
 
-        // Konstruktor
-        public BengalTiger(string name = "Rajah", int age = 4)
+        // constructor with default values for the Bengal tiger
+        public BengalTiger(string name = "Mike", int age = 4)
             : base(name, age)
         {
             Habitat = "Tropical forest";
         }
 
-        // Unik metod
+        // Unique method for the Bengal tiger
         public void Swim()
         {
             Console.WriteLine($"{Name} simmar i vattnet!");

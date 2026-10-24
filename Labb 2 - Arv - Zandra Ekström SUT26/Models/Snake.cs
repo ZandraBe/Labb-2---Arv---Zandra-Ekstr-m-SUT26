@@ -6,23 +6,23 @@ namespace Labb_2___Arv___Zandra_Ekström_SUT26.Models
 {
     public class Snake : Animal
     {
-        // Unik egenskap för ormen
+        // unique property for the snake
         public bool IsVenomous { get; set; }
 
-        // Konstruktor med standardvärden
-        public Snake(string name = "Snape", int age = 3)
-            : base(name, age, "Green", 5, "Male")
+        // constructor with default values for the snake
+        public Snake(string name = "Slytherin", int age = 3)
+            : base(name, age, "Grön", 5, "Hane")
         {
             IsVenomous = false;
         }
 
-        // Unik metod för ormen
+        // unique method for the snake
         public void Slither()
         {
             Console.WriteLine($"{Name} slingrar sig!");
         }
 
-        // Ormens läte
+        // the snake makes a hissing sound
         public override void MakeSound()
         {
             Console.WriteLine($"{Name} väser: SSSSS!");

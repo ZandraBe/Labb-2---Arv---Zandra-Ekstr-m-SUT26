@@ -12,7 +12,7 @@ namespace Labb_2___Arv___Zandra_Ekström_SUT26.Models
 
         // Constructor with default value
         public Tiger(string name = "Atlas", int age = 5)
-            : base(name, age, "Orange/randig", 184, "Hane")
+            : base(name, age, "Orange", 184, "Hane")
         {
             StripeCount = 100;
         }

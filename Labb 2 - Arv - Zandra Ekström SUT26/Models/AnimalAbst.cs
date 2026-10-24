@@ -39,7 +39,7 @@ namespace Labb_2___Arv___Zandra_Ekström_SUT26.Models
         public void ShowInfo()
         {
             Console.WriteLine($"Namn: {Name}");
-            Console.WriteLine($"Ålder: {Age}");
+            Console.WriteLine($"Ålder: {Age} år");
             Console.WriteLine($"Färg: {Color}");
             Console.WriteLine($"Vikt: {Weight} kg");
             Console.WriteLine($"Kön: {Gender}");

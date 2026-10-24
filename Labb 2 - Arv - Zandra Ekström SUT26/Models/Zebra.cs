@@ -6,23 +6,23 @@ namespace Labb_2___Arv___Zandra_Ekström_SUT26.Models
 {
     public class Zebra : Animal
     {
-        // Unik egenskap för zebran
+        // unique property for the zebra
         public string StripePattern { get; set; }
 
-        // Konstruktor med standardvärden
-        public Zebra(string name = "Ziggy", int age = 4)
+        // constructor with default values for the zebra
+        public Zebra(string name = "Zandra", int age = 4)
             : base(name, age, "Black and white", 350, "Female")
         {
             StripePattern = "Vertical";
         }
 
-        // Unik metod för zebran
+        // unique method for the zebra
         public void Gallop()
         {
             Console.WriteLine($"{Name} galopperar!");
         }
 
-        // Zebrans läte
+        // zebra's sound
         public override void MakeSound()
         {
             Console.WriteLine($"{Name} låter: I-AH! I-AH!");

@@ -7,32 +7,36 @@ namespace Labb_2___Arv___Zandra_Ekström_SUT26
     {
         static void Main(string[] args)
         {
-            // Skapa en tiger
+            // create a tiger
             Tiger tiger = new Tiger();
 
             tiger.ShowInfo();
             tiger.Eat();
+            tiger.Sleep();
             tiger.Hunt();
             tiger.MakeSound();
 
+
             Console.WriteLine();
 
-            // Skapa en elefant
+            // create a elephant
             Elephant elephant = new Elephant();
 
             elephant.ShowInfo();
             elephant.Eat();
+            elephant.Sleep();
             elephant.SprayWater();
             elephant.MakeSound();
 
 
             Console.WriteLine();
 
-            // Skapa en orm
+            // create a snake
             Snake snake = new Snake();
 
             snake.ShowInfo();
             snake.Eat();
+            snake.Sleep();
             snake.Slither();
             snake.MakeSound();
 
@@ -41,11 +45,12 @@ namespace Labb_2___Arv___Zandra_Ekström_SUT26
 
             Console.WriteLine();
 
-            // Skapa en orangutang
+            // create a orangutan
             Orangutan orangutan = new Orangutan();
 
             orangutan.ShowInfo();
             orangutan.Eat();
+            orangutan.Sleep();
             orangutan.ClimbTree();
             orangutan.MakeSound();
 
@@ -54,11 +59,12 @@ namespace Labb_2___Arv___Zandra_Ekström_SUT26
 
             Console.WriteLine();
 
-            // Skapa en zebra
+            // create a zebra
             Zebra zebra = new Zebra();
 
             zebra.ShowInfo();
             zebra.Eat();
+            zebra.Sleep();
             zebra.Gallop();
             zebra.MakeSound();
 
@@ -67,21 +73,24 @@ namespace Labb_2___Arv___Zandra_Ekström_SUT26
 
             Console.WriteLine();
 
-            // Skapa en bengalisk tiger
+            // create a Bengal tiger
             BengalTiger bengalTiger = new BengalTiger();
 
             bengalTiger.ShowInfo();
-            bengalTiger.MakeSound();
+            bengalTiger.Sleep();
+            bengalTiger.MakeSound();            
             bengalTiger.Hunt();
             bengalTiger.Swim();
+            
 
             Console.WriteLine();
 
-            // Skapa en sibirisk tiger
+            // create a Siberian tiger
             SiberianTiger siberianTiger = new SiberianTiger();
 
             siberianTiger.ShowInfo();
             siberianTiger.MakeSound();
+            siberianTiger.Sleep();
             siberianTiger.Hunt();
             siberianTiger.WalkInSnow();
 
