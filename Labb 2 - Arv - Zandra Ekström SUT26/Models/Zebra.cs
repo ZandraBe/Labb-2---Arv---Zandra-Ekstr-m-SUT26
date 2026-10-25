@@ -11,7 +11,7 @@ namespace Labb_2___Arv___Zandra_Ekström_SUT26.Models
 
         // constructor with default values for the zebra
         public Zebra(string name = "Zandra", int age = 4)
-            : base(name, age, "Black and white", 350, "Female")
+            : base(name, age, "Svart och vit", 350, "Hona")
         {
             StripePattern = "Vertical";
         }

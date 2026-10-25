@@ -20,7 +20,7 @@ namespace Labb_2___Arv___Zandra_Ekström_SUT26.Models
         // Unique method for tiger
         public void Hunt()
         {
-            Console.WriteLine($"{Name} jagar: vildsvin!");
+            Console.WriteLine($"{Name} jagar: vildsvin.");
         }
 
         // Tigers sound

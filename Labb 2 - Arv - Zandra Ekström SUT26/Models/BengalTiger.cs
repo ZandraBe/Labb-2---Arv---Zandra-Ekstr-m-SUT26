@@ -13,7 +13,7 @@ namespace Labb_2___Arv___Zandra_Ekström_SUT26.Models
         public BengalTiger(string name = "Mike", int age = 4)
             : base(name, age)
         {
-            Habitat = "Tropical forest";
+            Habitat = "Tropisk skog";
         }
 
         // Unique method for the Bengal tiger

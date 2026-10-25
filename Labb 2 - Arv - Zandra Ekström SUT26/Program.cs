@@ -77,10 +77,12 @@ namespace Labb_2___Arv___Zandra_Ekström_SUT26
             BengalTiger bengalTiger = new BengalTiger();
 
             bengalTiger.ShowInfo();
+            Console.WriteLine($"Livsmiljö: {bengalTiger.Habitat}");
             bengalTiger.Sleep();
             bengalTiger.MakeSound();            
             bengalTiger.Hunt();
             bengalTiger.Swim();
+
             
 
             Console.WriteLine();
@@ -89,6 +91,7 @@ namespace Labb_2___Arv___Zandra_Ekström_SUT26
             SiberianTiger siberianTiger = new SiberianTiger();
 
             siberianTiger.ShowInfo();
+            Console.WriteLine($"Pälstjocklek: {siberianTiger.FurThickness}");
             siberianTiger.MakeSound();
             siberianTiger.Sleep();
             siberianTiger.Hunt();
